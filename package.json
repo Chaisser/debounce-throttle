@@ -1,0 +1,46 @@
+{
+  "name": "@chaisser/debounce-throttle",
+  "version": "1.0.0",
+  "description": "Simple debounce and throttle functions with cancel support",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "debounce",
+    "throttle",
+    "performance",
+    "typescript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
