@@ -1,6 +1,6 @@
 {
   "name": "@chaisser/debounce-throttle",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Simple debounce and throttle functions with cancel support",
   "type": "module",
   "main": "./dist/index.js",
