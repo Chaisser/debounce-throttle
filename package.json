@@ -1,6 +1,6 @@
 {
   "name": "@chaisser/debounce-throttle",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Simple debounce and throttle functions with cancel support",
   "type": "module",
   "main": "./dist/index.js",
@@ -31,6 +31,14 @@
     "typescript"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chaisser/debounce-throttle.git"
+  },
+  "homepage": "https://github.com/Chaisser/debounce-throttle#readme",
+  "bugs": {
+    "url": "https://github.com/Chaisser/debounce-throttle/issues"
+  },
   "devDependencies": {
     "@types/node": "^22.10.2",
     "tsup": "^8.3.5",
