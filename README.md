@@ -6,7 +6,7 @@ Lightweight, zero-dependency rate limiting utilities. Debounce delays execution 
 
 ---
 
-## Installation
+## Installation 
 
 ```bash
 npm install @chaisser/debounce-throttle
